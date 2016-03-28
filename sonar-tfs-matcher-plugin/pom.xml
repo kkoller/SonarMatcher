@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.codehaus.sonar-plugins</groupId>
+    <artifactId>parent</artifactId>
+    <version>19</version>
+  </parent>
+
+  <artifactId>sonar-tfs-matcher-plugin</artifactId>
+  <packaging>sonar-plugin</packaging>
+
+  <name>SonarQube :: TFS :: Matcher :: Plugin</name>
+  <description>TFS Server Path Matcher</description>
+
+  <inceptionYear>2015</inceptionYear>
+  <organization>
+    <name>Zach Cranfill</name>
+    <url>mailto:zachary.cranfill@gmail.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>GNU LGPL 3</name>
+      <url>http://www.gnu.org/licenses/lgpl.txt</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>zacran</id>
+      <name>Zach Cranfill</name>
+    </developer>
+  </developers>
+  
+  <properties>
+    <license.mailto>zachary.cranfill@gmail.com</license.mailto>
+    <sonar.buildVersion>5.0</sonar.buildVersion>
+    <sonar.pluginName>TFS Matcher</sonar.pluginName>
+    <sonar.pluginClass>com.geico.tfs.matcher.TfsMatcherPlugin</sonar.pluginClass>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+      <version>2.0.3</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.sonar</groupId>
+      <artifactId>sonar-plugin-api</artifactId>
+      <version>${sonar.buildVersion}</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <!-- unit tests -->
+    <dependency>
+      <groupId>org.codehaus.sonar</groupId>
+      <artifactId>sonar-testing-harness</artifactId>
+      <version>${sonar.buildVersion}</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>exec-TfsMatcher</id>
+            <phase>prepare-package</phase>
+	        <configuration>
+	          <executable>${basedir}/src/main/resources/TfsMatcher.exe</executable>
+	        </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+    <pluginManagement>
+    	<plugins>
+    		<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+    		<plugin>
+    			<groupId>org.eclipse.m2e</groupId>
+    			<artifactId>lifecycle-mapping</artifactId>
+    			<version>1.0.0</version>
+    			<configuration>
+    				<lifecycleMappingMetadata>
+    					<pluginExecutions>
+    						<pluginExecution>
+    							<pluginExecutionFilter>
+    								<groupId>
+    									com.mycila.maven-license-plugin
+    								</groupId>
+    								<artifactId>
+    									maven-license-plugin
+    								</artifactId>
+    								<versionRange>
+    									[1.10.b1,)
+    								</versionRange>
+    								<goals>
+    									<goal>check</goal>
+    								</goals>
+    							</pluginExecutionFilter>
+    							<action>
+    								<ignore></ignore>
+    							</action>
+    						</pluginExecution>
+    					</pluginExecutions>
+    				</lifecycleMappingMetadata>
+    			</configuration>
+    		</plugin>
+    	</plugins>
+    </pluginManagement>
+  </build>
+
+</project>

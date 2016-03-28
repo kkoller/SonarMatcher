@@ -1,0 +1,8 @@
+com\geico\tfs\matcher\TfsMatcherMetrics.class
+com\geico\tfs\matcher\TfsMatcherPlugin.class
+com\geico\tfs\matcher\TfsMatcherMap.class
+com\geico\tfs\matcher\TfsMatcherSensor.class
+com\geico\tfs\matcher\TfsMatcherReader.class
+com\geico\tfs\matcher\TfsMatcherRunner.class
+com\geico\tfs\matcher\MatcherLogger.class
+com\geico\tfs\matcher\TfsMatcherWriter.class

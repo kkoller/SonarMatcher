@@ -1,0 +1,107 @@
+ERROR: Object reference not set to an instance of an object.
+------------------
+ERROR: Object reference not set to an instance of an object.
+------------------
+ERROR: Object reference not set to an instance of an object.
+------------------
+ERROR: Object reference not set to an instance of an object.
+------------------
+ERROR: Object reference not set to an instance of an object.
+------------------
+ERROR: Object reference not set to an instance of an object.
+   at TfsMatcher.TfsMatcher..ctor(String rootDir)
+------------------
+ERROR: Object reference not set to an instance of an object.
+   at TfsMatcher.TfsMatcher..ctor(String rootDir)
+------------------
+ERROR: Object reference not set to an instance of an object.
+   at TfsMatcher.TfsMatcher..ctor(String rootDir)
+------------------
+ERROR: Object reference not set to an instance of an object.
+   at TfsMatcher.TfsMatcher..ctor(String rootDir)
+------------------
+ERROR: Object reference not set to an instance of an object.
+   at TfsMatcher.TfsMatcher..ctor(String rootDir)
+------------------
+ERROR: Object reference not set to an instance of an object.
+   at TfsMatcher.TfsMatcher..ctor(String rootDir)
+------------------
+ERROR: Object reference not set to an instance of an object.
+   at TfsMatcher.TfsMatcher..ctor(String rootDir)
+------------------
+ERROR: Object reference not set to an instance of an object.
+   at TfsMatcher.TfsMatcher..ctor(String rootDir)
+------------------
+ERROR: Object reference not set to an instance of an object.
+   at TfsMatcher.TfsMatcher..ctor(String rootDir)
+------------------
+ERROR: Object reference not set to an instance of an object.
+   at TfsMatcher.TfsMatcher..ctor(String rootDir)
+------------------
+No mapped workspace found for: C:\Users\u1dcbg\workspace\sonar-tfs-matcher-plugin
+------------------
+-----------------------------------------------
+MATCHER RUN: 8/24/2015 2:39:49 PM
+FILES FROM XML: 0
+------------------
+No mapped workspace found for: C:\Users\u1dcbg\workspace\sonar-tfs-matcher-plugin
+------------------
+-----------------------------------------------
+MATCHER RUN: 8/27/2015 9:06:14 AM
+FILES FROM XML: 0
+------------------
+No mapped workspace found for: C:\Users\u1dcbg\workspace\sonar-tfs-matcher-plugin
+------------------
+-----------------------------------------------
+MATCHER RUN: 8/27/2015 9:07:07 AM
+FILES FROM XML: 0
+------------------
+No mapped workspace found for: C:\Users\u1dcbg\workspace\sonar-tfs-matcher-plugin
+------------------
+-----------------------------------------------
+MATCHER RUN: 8/27/2015 10:01:25 AM
+FILES FROM XML: 0
+------------------
+No mapped workspace found for: C:\Users\u1dcbg\workspace\sonar-tfs-matcher-plugin
+------------------
+-----------------------------------------------
+MATCHER RUN: 8/27/2015 10:04:59 AM
+FILES FROM XML: 0
+------------------
+No mapped workspace found for: C:\Users\u1dcbg\Documents\Projects\Sonar TFS Matcher\Java App\sonar-tfs-matcher-plugin
+------------------
+-----------------------------------------------
+MATCHER RUN: 3/21/2016 11:05:52 AM
+FILES FROM XML: 0
+------------------
+No mapped workspace found for: C:\Users\u1dcbg\Documents\Projects\Sonar TFS Matcher\Java App\sonar-tfs-matcher-plugin
+------------------
+-----------------------------------------------
+MATCHER RUN: 3/21/2016 11:09:40 AM
+FILES FROM XML: 0
+------------------
+No mapped workspace found for: C:\Users\u1dcbg\Documents\Projects\Sonar TFS Matcher\Java App\sonar-tfs-matcher-plugin
+------------------
+-----------------------------------------------
+MATCHER RUN: 3/22/2016 10:12:59 AM
+FILES FROM XML: 0
+------------------
+No mapped workspace found for: C:\Users\u1dcbg\Documents\Projects\Sonar TFS Matcher\Java App\sonar-tfs-matcher-plugin
+------------------
+-----------------------------------------------
+MATCHER RUN: 3/22/2016 10:46:42 AM
+FILES FROM XML: 0
+------------------
+No mapped workspace found for: C:\Users\u1dcbg\Documents\Projects\Sonar TFS Matcher\Java App\sonar-tfs-matcher-plugin
+------------------
+-----------------------------------------------
+MATCHER RUN: 3/22/2016 2:33:02 PM
+FILES FROM XML: 0
+------------------
+LOGGING FOR DIR: C:\src\MSI\Dev\vNext\Platform\CodeQuality\SonarMatcher\sonar-tfs-matcher-plugin
+------------------
+-----------------------------------------------
+MATCHER RUN: 3/28/2016 3:06:23 PM
+FILES FROM XML: 0
+MATCHING TOOK 0.1310075s!
+------------------

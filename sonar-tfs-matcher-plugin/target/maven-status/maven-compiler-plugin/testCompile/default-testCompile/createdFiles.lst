@@ -1,0 +1,4 @@
+com\geico\tfs\matcher\TfsMatcherWriterTest.class
+com\geico\tfs\matcher\TfsMatcherPluginTest.class
+com\geico\tfs\matcher\TfsMatcherMetricsTest.class
+com\geico\tfs\matcher\TfsMatcherRunnerTest.class
